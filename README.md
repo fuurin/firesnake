@@ -1,2 +1,2 @@
-# firesnake-firestore
-A simple firebase firestore framework for TypeScript.
+# firesnake
+A simple firebase firestore / realtime database framework for TypeScript.
