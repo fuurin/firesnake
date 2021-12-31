@@ -1,0 +1,46 @@
+{
+  "name": "firesnake",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A simple firebase firestore / realtime database framework for TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "all": "firebase emulators:exec 'jest'",
+    "test": "firebase emulators:exec 'jest -t ${npm_config_file}'",
+    "watch": "firebase emulators:exec 'jest --watch' --ui",
+    "format": "prettier --write --plugin-search-dir=. . && eslint --ignore-path .prettierignore . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuurin/firesnake.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Firebase",
+    "Firestore",
+    "Realtime",
+    "Database"
+  ],
+  "author": "fuurin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fuurin/firesnake/issues"
+  },
+  "homepage": "https://github.com/fuurin/firesnake#readme",
+  "workspaces": [
+    "packages/firestore",
+    "packages/database"
+  ],
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/jest": "^27.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "axios": "^0.24.0",
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "jest": "^27.4.5",
+    "prettier": "^2.5.1",
+    "ts-jest": "^27.1.2"
+  }
+}

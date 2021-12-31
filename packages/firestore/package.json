@@ -1,0 +1,31 @@
+{
+  "name": "@firesnake/firestore",
+  "version": "0.0.1",
+  "description": "A simple firebase firestore framework for TypeScript.",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuurin/firesnake.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Firebase",
+    "Firestore",
+    "Web version 9"
+  ],
+  "author": "fuurin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fuurin/firesnake/issues"
+  },
+  "homepage": "https://github.com/fuurin/firesnake#readme",
+  "dependencies": {
+    "@firebase/firestore": "^3.4.1"
+  },
+  "peerDependencies": {
+    "typescript": ">= 3.0.0"
+  }
+}
