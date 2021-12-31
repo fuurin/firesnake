@@ -1,11 +1,8 @@
 {
-  "name": "@firesnake/database",
+  "name": "firesnake-database",
   "version": "0.0.1",
   "description": "A simple firebase realtime database framework for TypeScript.",
   "main": "./src/index.ts",
-  "scripts": {
-    "test": "jest"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fuurin/firesnake.git"
